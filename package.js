@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'olragon:handsontable',
-  summary: 'Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery',
-  version: '0.12.2',
-  git: 'https://github.com/olragon/meteor-handsontable.git'
+  name: 'robincwillis:handsontable',
+  summary: 'Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery, forked to use bootstrap date time picker',
+  version: '0.12.3',
+  git: 'https://github.com/robincwillis/meteor-handsontable.git'
 });
 
 Package.onUse(function(api) {
@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('olragon:handsontable');
-  api.addFiles('olragon_handsontable-tests.js');
+  api.use('robincwillis:handsontable');
+  api.addFiles('robincwillis_handsontable-tests.js');
 });
