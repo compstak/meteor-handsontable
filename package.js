@@ -1,7 +1,7 @@
 Package.describe({
   name: 'robincwillis:handsontable',
-  summary: 'Handsontable, forked to use bootstrap date time picker',
-  version: '0.12.3',
+  summary: 'Handsontable, forked to use bootstrap date picker',
+  version: '0.12.4',
   git: 'https://github.com/robincwillis/meteor-handsontable.git'
 });
 
@@ -18,6 +18,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
+  api.use('rajit:bootstrap3-datepicker');
   api.use('tinytest');
   api.use('robincwillis:handsontable');
   api.addFiles('robincwillis_handsontable-tests.js');
