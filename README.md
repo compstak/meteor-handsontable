@@ -2,14 +2,18 @@ Handsontable repackaged for Meteor
 =========
 
 ### Forked to use Bootstrap Date Picker instead of lame old JQuery UI's
+1. Updated Handsontable to version 12
+2. Changed the Datepicker to use http://eternicode.github.io/bootstrap-datepicker
+
+=========
 
 [Handsontable](http://handsontable.com/) is a minimalistic Excel-like data grid editor for HTML, JavaScript & jQuery.
 
-Version: 0.12.3
+Version: 0.12.4
 
 ## Installation
 
-`meteor add olragon:handsontable`
+`meteor add robincwillis:handsontable`
 
 
 ## For using in Meteor
