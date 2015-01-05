@@ -1,6 +1,6 @@
 Package.describe({
   name: 'robincwillis:handsontable',
-  summary: 'Handsontable is a minimalistic approach to Excel-like table editor in HTML & jQuery, forked to use bootstrap date time picker',
+  summary: 'Handsontable, forked to use bootstrap date time picker',
   version: '0.12.3',
   git: 'https://github.com/robincwillis/meteor-handsontable.git'
 });
