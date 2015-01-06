@@ -1,7 +1,7 @@
 Package.describe({
   name: 'robincwillis:handsontable',
   summary: 'Handsontable, forked to use bootstrap date picker',
-  version: '0.12.4',
+  version: '0.12.5',
   git: 'https://github.com/robincwillis/meteor-handsontable.git'
 });
 
