@@ -6,7 +6,7 @@ Handsontable repackaged for Meteor
 Update : Turns out the project I am working on no longer needs the datepicker, however keeping up to date with handsontable was an issue. This package now uses handsontable as a git submodule to stay up to date.
 
 1. Updated Handsontable to version 13
-2. Changed the Datepicker to use http://eternicode.github.io/bootstrap-datepicker
+~~Changed the Datepicker to use http://eternicode.github.io/bootstrap-datepicker~~
 
 =========
 

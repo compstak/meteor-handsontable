@@ -9,16 +9,9 @@ Package.onUse(function(api) {
 
   if (api.versionsFrom) {
     api.versionsFrom('1.0.3');
-    //api.versionsFrom('1.0.3.1'); // ignore, use real value
   }
+
   api.use('jquery', 'client');
-
-  // api.addFiles([
-  //   'lib/handsontable/dist/handsontable.full.js',
-  //   'lib/handsontable/dist/handsontable.full.css'
-  // ],'client',{bare:true});
-
-  // api.export('Handsontable', 'client');
 
   api.addFiles('lib/export.js','client', {bare:true});
   api.addFiles('lib/handsontable/dist/handsontable.full.js','client', {bare:true}); // 'bare' means Meteor won't add another closure
