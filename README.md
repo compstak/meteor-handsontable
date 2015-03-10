@@ -1,8 +1,11 @@
 Handsontable repackaged for Meteor
 =========
 
-### Forked to use Bootstrap Date Picker instead of lame old JQuery UI's
-1. Updated Handsontable to version 12
+~~### Forked to use Bootstrap Date Picker instead of lame old JQuery UI's~~
+
+Update : Turns out the project I am working on no longer needs the datepicker, however keeping up to date with handsontable was an issue. This package now uses handsontable as a git submodule to stay up to date.
+
+1. Updated Handsontable to version 13
 2. Changed the Datepicker to use http://eternicode.github.io/bootstrap-datepicker
 
 =========
