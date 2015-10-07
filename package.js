@@ -1,6 +1,6 @@
 Package.describe({
   name: 'compstak:handsontable',
-  summary: 'Handsontable, forked to use bootstrap date picker',
+  summary: 'Handsontable (CompStak modified version)',
   version: '0.19.0',
   git: 'https://github.com/compstak/meteor-handsontable.git'
 });
