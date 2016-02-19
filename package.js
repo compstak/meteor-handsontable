@@ -1,7 +1,7 @@
 Package.describe({
   name: 'compstak:handsontable',
   summary: 'Handsontable (CompStak modified version)',
-  version: '0.21.2',
+  version: '0.21.3',
   git: 'https://github.com/compstak/meteor-handsontable.git'
 });
 
@@ -24,5 +24,5 @@ Package.onTest(function(api) {
   api.use('rajit:bootstrap3-datepicker');
   api.use('tinytest');
   api.use('robincwillis:handsontable');
-  api.addFiles('robincwillis_handsontable-tests.js');
+  api.addFiles('robincwillis_handsontable-tests.js','client');
 });
