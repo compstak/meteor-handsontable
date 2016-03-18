@@ -15,7 +15,7 @@ This package now uses handsontable as a git submodule to stay up to date.
 
 [Handsontable](http://handsontable.com/) is a minimalistic Excel-like data grid editor for HTML, JavaScript & jQuery.
 
-Version: 0.21.4
+Version: 0.21.5
 
 ## Installation
 
