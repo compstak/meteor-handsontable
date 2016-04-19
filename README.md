@@ -3,7 +3,7 @@ Handsontable repackaged for Meteor
 
 This package now uses handsontable as a git submodule to stay up to date.
 
-1. Updated Handsontable to version 21.6
+1. Updated Handsontable to version 21.7
 
 2. Fixed use of 'hidden' attribute on an item in the context menu.
 
@@ -17,7 +17,7 @@ This package now uses handsontable as a git submodule to stay up to date.
 
 [Handsontable](http://handsontable.com/) is a minimalistic Excel-like data grid editor for HTML, JavaScript & jQuery.
 
-Version: 0.21.6
+Version: 0.21.7
 
 ## Installation
 
