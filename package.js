@@ -1,7 +1,7 @@
 Package.describe({
   name: 'compstak:handsontable',
   summary: 'Handsontable (CompStak modified version)',
-  version: '0.21.7',
+  version: '0.26.1',
   git: 'https://github.com/compstak/meteor-handsontable.git'
 });
 
