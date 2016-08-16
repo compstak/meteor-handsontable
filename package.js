@@ -13,10 +13,9 @@ Package.onUse(function(api) {
 
   api.use('jquery', 'client');
 
-  api.addFiles('lib/export.js','client', {bare:true});
   api.addFiles('lib/handsontable/dist/handsontable.full.js','client', {bare:true}); // 'bare' means Meteor won't add another closure
   api.addFiles('lib/handsontable/dist/handsontable.full.css','client');
-  api.export('Handsontable','client'); // Some people say client file with 'bare' doesn't need this, but it didn't work without it...
+  api.addFiles('lib/export.js','client', {bare:true});
 
 });
 
